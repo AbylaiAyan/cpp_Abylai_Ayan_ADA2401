@@ -15,7 +15,7 @@
     - Блок-схему алгоритма
 
 ### **Массив 10 000 элементов**
-![Task2 Result](Task2/output2.png)
+![Task2 Result](task2/output2.png)
 
 ---
 
@@ -37,7 +37,7 @@
     - Блок-схему алгоритма
 
 ### **Массив 1 000 и 10 000 элементов**
-![Task3 Result 1000](Task3/1000.png)
+![Task3 Result 1000](task3/1000.png)
 
 ---
 
@@ -60,7 +60,7 @@
     - Блок-схему алгоритма
 
 ### **Массив 10 000 и 100 000 элементов**
-![Task4 Result 10000](Task4/10000.png)
+![Task4 Result 10000](task4/10000.png)
 
 
 ---
@@ -81,7 +81,7 @@ Assignment2/
 
 ├─ task1_and_answers.md # Теория и ответы на контрольные вопросы
 
-├─ Task2/
+├─ task2/
 
 │ ├─ t2.cpp
 
@@ -89,7 +89,7 @@ Assignment2/
 
 │ └─ diagram2.png
 
-├─ Task3/
+├─ task3/
 
 │ ├─ t3.cpp
 
@@ -97,12 +97,13 @@ Assignment2/
 
 │ └─ diagram3.png
 
-└─ Task4/
+└─ task4/
 
 ├─ t4.ipynb
 
 ├─ output4.png
 
 └─ diagram4.png
+
 
 
