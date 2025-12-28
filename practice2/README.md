@@ -61,17 +61,31 @@
 
 ## Структура проекта
 practice2/
+
 ├── code/
+
 │ └── practice2.cpp # Исходный код с комментариями
+
 ├── screenshots/ # Скриншоты консоли
+
 │ ├── 1000.png
+
 │ ├── 10000.png
+
 │ └── 100000.png
+
 ├── diagrams/ # Блок-схема алгоритмов
+
 │ ├── practice2_main.png
+
 │ ├── practice2_selectionSortParallel.png
+
 │ ├── practice2_bubble_sort.png
+
 │ └── practice2_insertionSortParallel.png
+
 ├── answers.docx # Ответы на контрольные вопросы
+
 └── README.md # Этот файл с описанием
+
 
