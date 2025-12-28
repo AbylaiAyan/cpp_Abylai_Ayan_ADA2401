@@ -37,7 +37,7 @@
     - Блок-схему алгоритма
 
 ### **Массив 1 000 и 10 000 элементов**
-![Task3 Result 1000](task3/1000.png)
+![Task3 Result 1000](task3/output3.png)
 
 ---
 
@@ -60,7 +60,7 @@
     - Блок-схему алгоритма
 
 ### **Массив 10 000 и 100 000 элементов**
-![Task4 Result 10000](task4/10000.png)
+![Task4 Result 10000](task4/output4.png)
 
 
 ---
@@ -104,6 +104,7 @@ Assignment2/
 ├─ output4.png
 
 └─ diagram4.png
+
 
 
 
