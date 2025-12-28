@@ -37,13 +37,6 @@
 ### 100000
 ![Insertion Sort](screenshots/100000.png)
 
-### Блок-схема 
-
-![Block Diagrams](diagrams/practice2_main.png)
-![Block Diagram](diagrams/practice2_selectionSortParallel.png)
-![Block Diagram](diagrams/practice2_bubble_sort.png)
-![Block Diagram](diagrams/practice2_insertionSortParallel.png)
-
 ---
 
 ## Выводы
@@ -54,6 +47,15 @@
 Сортировка вставками в нашей параллельной учебной реализации демонстрирует значительное ускорение на всех размерах массивов. Такая особенность связана с особенностями используемого кода и частичной распараллелившейся обработкой элементов, хотя реальный алгоритм вставками традиционно плохо поддаётся эффективной параллельной реализации.
 
 Общее наблюдение показывает, что параллельная реализация алгоритмов с использованием OpenMP особенно эффективна для больших объёмов данных, тогда как для малых массивов накладные расходы на управление потоками могут перевешивать выигрыш. Увеличение числа потоков OpenMP позволяет дополнительно снижать время выполнения, однако эффективность зависит от размера массива и характера алгоритма. Таким образом, применение параллельного программирования целесообразно в случаях обработки больших объёмов данных, где последовательные алгоритмы демонстрируют низкую производительность.
+
+---
+
+### Блок-схема 
+
+![Block Diagrams](diagrams/practice2_main.png)
+![Block Diagram](diagrams/practice2_selectionSortParallel.png)
+![Block Diagram](diagrams/practice2_bubble_sort.png)
+![Block Diagram](diagrams/practice2_insertionSortParallel.png)
 
 ---
 
@@ -72,3 +74,4 @@ practice2/
 │ └── practice2_insertionSortParallel.png
 ├── answers.docx # Ответы на контрольные вопросы
 └── README.md # Этот файл с описанием
+
