@@ -63,8 +63,15 @@ Assignment1/
 
 ├─ source4.cpp # Среднее значение параллельно и последовательно
 
-└─ README.md # Описание репозитория и инструкций
+├─ README.md # Описание репозитория и инструкций
 
+├─ task1_output.png
+
+├─ task2_output.png
+
+├─ task3_output.png
+
+└─ task4_output.png
 
 
 ## Контрольные вопросы к Assignment 1
