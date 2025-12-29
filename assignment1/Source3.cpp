@@ -1,4 +1,4 @@
-﻿// task3.cpp
+// task3.cpp
 // Задание 3
 // Последовательный и параллельный поиск
 // минимального и максимального элементов массива
@@ -7,6 +7,7 @@
 #include <iostream>
 #include <random>
 #include <chrono>
+#include <climits>
 
 #ifdef _OPENMP
 #include <omp.h>
@@ -33,9 +34,7 @@ int main() {
         arr[i] = dist(gen);
     }
 
-    /* =====================================================
-       ПОСЛЕДОВАТЕЛЬНЫЙ ПОИСК MIN И MAX
-       ===================================================== */
+    /* ПОСЛЕДОВАТЕЛЬНЫЙ ПОИСК MIN И MAX */
 
        // Начинаем замер времени
     auto start_seq = high_resolution_clock::now();
@@ -60,9 +59,7 @@ int main() {
     cout << "Time = " << time_seq.count() << " ms\n\n";
 
 
-    /* =====================================================
-       ПАРАЛЛЕЛЬНЫЙ ПОИСК MIN И MAX (OpenMP)
-       ===================================================== */
+    /* ПАРАЛЛЕЛЬНЫЙ ПОИСК MIN И MAX (OpenMP) */
 
 #ifdef _OPENMP
 
@@ -75,8 +72,8 @@ int main() {
 #pragma omp parallel
     {
         // Локальные минимум и максимум для каждого потока
-        int local_min = arr[0];
-        int local_max = arr[0];
+        int local_min = INT_MAX;
+        int local_max = INT_MIN;
 
         // Каждый поток обрабатывает свою часть массива
 #pragma omp for
@@ -115,3 +112,5 @@ int main() {
 
     return 0;
 }
+
+
