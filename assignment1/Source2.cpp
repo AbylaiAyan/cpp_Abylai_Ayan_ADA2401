@@ -43,15 +43,16 @@ int main() {
 
     // Заканчиваем замер времени
     auto end = high_resolution_clock::now();
-    auto duration = duration_cast<milliseconds>(end - start);
+    auto duration = duration_cast<microseconds>(end - start);
 
     // Выводим результаты
     cout << "Min value: " << minVal << endl;
     cout << "Max value: " << maxVal << endl;
-    cout << "Execution time: " << duration.count() << " ms" << endl;
+    cout << "Execution time: " << duration.count() << " microseconds" << endl;
 
     // Освобождаем память
     delete[] arr;
 
     return 0;
 }
+
