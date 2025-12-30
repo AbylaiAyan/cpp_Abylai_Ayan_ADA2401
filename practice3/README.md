@@ -62,6 +62,7 @@ practice3/
 
 ### 5.1 CPU версии (`for_CPU_sort.cpp`)
 Скриншот: `screens/CPU_results.png`
+![Result](screens/CPP_output.png)
 
 | Array size | Merge Sort CPU | Quick Sort CPU | Heap Sort CPU |
 |------------|----------------|----------------|---------------|
@@ -84,6 +85,7 @@ practice3/
 
 #### GPU Merge Sort (`GPU_merge_sort.cu`)
 Скрин: `screens/GPU_merge_sort.png`
+![Result](screens/GPU_merge_sort_output.png)
 
 | Array size | GPU Merge Sort |
 |------------|----------------|
@@ -104,6 +106,7 @@ practice3/
 
 #### GPU Quick Sort (учебная версия) (`GPU_quick_sort.cu`)
 Скрин: `screens/GPU_quick_sort.png`
+![Result](screens/GPU_quick_sort_output.png)
 
 | Array size | GPU Quick Sort |
 |------------|----------------|
@@ -123,6 +126,7 @@ practice3/
 
 #### GPU Heap Sort (полностью GPU) (`GPU_heap_sort.cu`)
 Скрин: `screens/GPU_heap_sort.png`
+![Result](screens/GPU_heap_sort_output.png)
 
 | Array size | GPU Heap Sort |
 |------------|---------------|
@@ -140,7 +144,7 @@ practice3/
 
 ---
 
-## 6️⃣ Выводы
+## 6️ Выводы
 - **GPU Merge Sort** — наиболее эффективный для больших массивов, масштабируется лучше остальных алгоритмов.  
 - **GPU Quick Sort (учебная версия)** — демонстрирует работу GPU, ускорение умеренное, сортировка внутри блоков выполняется на CPU.  
 - **GPU Heap Sort (полностью GPU)** — крайне неэффективен на больших массивах, из-за частых операций в глобальной памяти и синхронизаций потоков.  
@@ -149,7 +153,7 @@ practice3/
 
 ---
 
-## 7️⃣ Блок-схемы и процесс кода
+## 7️ Блок-схемы и процесс кода
 - **Блок-схемы** алгоритмов можно добавить из папки `block_diagrams/`.  
 - Под каждой схемой рекомендуется добавить краткое описание:
   - какие шаги выполняет GPU и CPU,  
@@ -159,7 +163,8 @@ practice3/
 
 ---
 
-## 8️⃣ Дополнительно
+## 8️ Дополнительно
 - Все GPU версии запускались в **Google Colab с включённым GPU**.  
 - CPU версии проверялись в **Visual Studio**, что позволило получить время последовательного выполнения.  
+
 - Для каждой реализации есть скриншоты с результатами и блок-схемы для наглядного представления алгоритмов.
