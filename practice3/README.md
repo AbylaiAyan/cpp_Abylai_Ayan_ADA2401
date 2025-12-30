@@ -44,15 +44,21 @@ practice3/
 
 ├─ screens/ # Скрины результатов
 
-│ ├─ CPU_results.png
+│ ├─ CPU_output.png
+
+│ ├─ GPU_merge_sort_output.png
+
+│ ├─ GPU_quick_sort_output.png
+
+│ └─ GPU_heap_sort_output.png
+
+├─ block_diagrams/ # Блок-схемы алгоритмов
 
 │ ├─ GPU_merge_sort.png
 
 │ ├─ GPU_quick_sort.png
 
 │ └─ GPU_heap_sort.png
-
-├─ block_diagrams/ # Блок-схемы алгоритмов
 
 ├─ answers.md # Ответы на контрольные вопросы
 
@@ -167,7 +173,7 @@ practice3/
 После завершения сортировки итоговый массив копируется обратно с **GPU на CPU**, освобождается выделенная видеопамять, измеряется время выполнения алгоритма, и программа завершает работу.
 
 ---
-![Diagrams](screens/gpu_merge_sort.png)
+![Diagrams](block_diagrams/gpu_merge_sort.png)
 
 ---
 ## Блок-схема GPU Quick Sort (учебная реализация)  
@@ -183,7 +189,7 @@ practice3/
 После завершения сортировки выводится время выполнения алгоритма, и программа завершает работу.
 
 ---
-![Diagrams](screens/GPU_quick_sort.png)
+![Diagrams](block_diagrams/GPU_quick_sort.png)
 
 
 ---
@@ -202,9 +208,7 @@ practice3/
 
 ---
 
-![Diagrams](screens/GPU_heap_sort.png)
-
-
+![Diagrams](block_diagrams/GPU_heap_sort.png)
 
 ---
 
@@ -213,5 +217,6 @@ practice3/
 - CPU версии проверялись в **Visual Studio**, что позволило получить время последовательного выполнения.  
 
 - Для каждой реализации есть скриншоты с результатами и блок-схемы для наглядного представления алгоритмов.
+
 
 
