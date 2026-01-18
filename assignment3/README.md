@@ -157,3 +157,22 @@ Assignment2/
 4. Все текстовые результаты выводятся в терминал после выполнения кода.
 
 ---
+
+**График task 1:**  
+![Task 1](figures/task1_diagram.png)
+
+---
+
+**График task 2:**  
+![Task 2](figures/task2_diagram.png)
+
+---
+
+**График task 3:**  
+![Task 3](figures/task3_diagram.png)
+
+---
+
+**График task 4:**  
+![Task 4](figures/task4_diagram.png)
+
