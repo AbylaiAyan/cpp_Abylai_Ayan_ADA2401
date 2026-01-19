@@ -37,7 +37,7 @@ practice4/
 2. Клонируйте репозиторий:
 ```
 
-git clone <URL репозитория>
+git clone <https://github.com/AbylaiAyan/cpp_Abylai_Ayan_ADA2401/tree/main/practice4>
 
 ```
 3. Перейдите в папку проекта и соберите CUDA код.
@@ -103,3 +103,4 @@ Task 3 (Bubble sort - local): 155.9603 ms
 ![diagram](diagram.png)
 
 ---
+
